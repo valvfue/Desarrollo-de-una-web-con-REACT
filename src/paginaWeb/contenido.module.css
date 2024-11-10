@@ -1,0 +1,52 @@
+main{
+    background-color:transparent;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex:row nowrap;
+}
+
+main section{
+    width:80%;
+    background-color:antiquewhite;
+}
+
+main aside{
+    width:24%;
+    background-color:transparent;
+}
+
+@media (max-width:800px){
+    aside{
+        display:none;
+    }
+    main section{
+        width:100%;
+    }
+
+  }
+
+  aside {
+    background-color: transparent;
+    padding: 5px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: auto; 
+    box-sizing: border-box; 
+  }
+  
+  .video-container {
+    max-width: 100%;
+    overflow: hidden; 
+    margin-bottom: 20px; 
+  }
+  
+  .react-youtube {
+    width: 100% !important; 
+    max-width: 800px; 
+    height: auto; 
+  }
+  

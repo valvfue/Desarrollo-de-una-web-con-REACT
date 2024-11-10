@@ -1,0 +1,53 @@
+.footer {
+    background-color: #000000; 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+  }
+  
+  .socialIcon {
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    border-radius: 90%; 
+    background-color: transparent; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    text-decoration: none; 
+  }
+  
+  .socialIcon i {
+    font-size: 20px; 
+    color: white; 
+    transition: color 0.3s ease; 
+  }
+  
+  .socialIcon:hover {
+    transform: scale(1.2); 
+    background-color: #0611d0; 
+  }
+  
+  .socialIcon:hover i {
+    color: #fff; 
+  }
+  
+  .socialIcon:active {
+    transform: scale(0.9); 
+  }
+  
+  .iconImage {
+    border-radius: 50%; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  .iconImage:hover {
+    transform: scale(1.1); 
+  }
+  
+  
+  
+  

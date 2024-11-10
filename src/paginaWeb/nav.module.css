@@ -1,0 +1,17 @@
+.navbar-nav .nav-link {
+  transition: all 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: white; 
+  background-color: #f39c12; 
+  border-radius: 5px; 
+  transform: scale(1.1); 
+}
+
+
+.nav-item {
+  margin: 0 15px; 
+}
+
+  
